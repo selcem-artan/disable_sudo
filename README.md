@@ -1,7 +1,7 @@
 # disable sudo permission
 Disable sudo privilidge for all unix users except default user (uid:1000)
 
-Script needs to be run with "--users" flag without any arguments
+Script needs to be run with root user and "--users" flag without any arguments
 
 ```
 # python3 sudo_disable.py  --help
